@@ -1,0 +1,30 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "",
+        "limitSymbolsToIncludedHeaders": true
+      },
+      "includePath": [
+        "/home/talbrabo/mobile-robot_ws/devel/include/**",
+        "/opt/ros/kinetic/include/**",
+        "/home/talbrabo/catkin_ws/devel/include/**",
+        "/home/talbrabo/mobile-robot_ws/src/diff_drive_controller/include/**",
+        "/home/talbrabo/catkin_ws/src/Onboard-SDK-ROS/dji_sdk/include/**",
+        "/home/talbrabo/catkin_ws/src/Onboard-SDK-ROS/dji_sdk_demo/include/**",
+        "/home/talbrabo/mobile-robot_ws/src/joint_state_controller/include/**",
+        "/home/talbrabo/catkin_ws/src/kinect2_bridge/include/**",
+        "/home/talbrabo/catkin_ws/src/kinect2_calibration/include/**",
+        "/home/talbrabo/catkin_ws/src/kinect2_registration/include/**",
+        "/home/talbrabo/catkin_ws/src/kinect_test/include/**",
+        "/home/talbrabo/catkin_ws/src/my_pcl/include/**",
+        "/home/talbrabo/catkin_ws/src/my_ps/include/**",
+        "/home/talbrabo/catkin_ws/src/pcl_conversions/include/**",
+        "/home/talbrabo/catkin_ws/src/pcl_ros/include/**",
+        "/home/talbrabo/catkin_ws/src/usb_cam/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+<launch>
+
+    <!-- Serial node to communicate with arduino -->
+    <node pkg="rosserial_python" type="serial_node.py" name="prizm_serial_node">
+        <!-- Change the 'value' parameter of the line below -->
+        <!-- run `ls /dev/ttyUSB*` to get the id of your PRIZM controller -->
+        <param name="port" value="/dev/ttyUSB0"/>
+        <param name="baud" value="57600"/>
+    </node>
+
+</launch>
